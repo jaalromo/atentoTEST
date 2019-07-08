@@ -1,0 +1,43 @@
+body{
+	background-color: rgb(240, 230, 245);
+	text-align: center;
+}
+
+.externo{
+	margin: auto;
+    width: 550px;
+}
+
+.interno{
+	height: 80px;
+}
+
+label{
+	font-weight: bold;
+	display: block;
+	transform: translateY(50%);
+	font-size: larger;
+}
+
+form{
+	background-color: white;
+	box-shadow: -3px 2px 5px 7px rgb(44, 95, 92);
+	height: 300px;
+}
+
+.inputs{
+	transform: translateY(50%);
+	font-size: larger;
+	border: 2px black solid;
+}
+.botao{
+	border-radius: 5px;
+	font-size: larger;
+	transform: translateY(20%);
+	border-width: thick;
+    border-color: gray;
+}
+
+.botao:hover{
+	background-color: darkgrey;
+}

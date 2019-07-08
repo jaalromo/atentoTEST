@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tela Bônus</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" src="src/js.js"></script>
+</head>
+<body>
+	<h1>Formulário de cadastro</h1>
+	<div class="externo">
+	<form action="cadastro.php" method="post">
+		<div class="interno">
+			<label>Nome:</label>
+			<input type="text" name="nome" required pattern="[A-Za-z\s]{10,}" title="Não é permitido escrever números e o nome deve ter pelo menos 10 carateres" id="nome" class="inputs" style="width: 90%;">
+		</div>
+		<div class="interno">
+			<label>Idade:</label>
+			<input type="number" name="idade" required id="idade" min="1" max="200" class="inputs" style="width: 10%">
+		</div>
+		<div class="interno">
+			<label>UF:</label>
+			<select name="UF" required class="inputs" style="width: 45%">
+				<option value="AC">Acre (AC)</option>
+				<option value="AL">Alagoas (AL)</option>
+				<option value="AM">Amazonas (AM)</option>
+				<option value="AP">Amapá (AP)</option>
+				<option value="BA">Bahia (BA)</option>
+				<option value="CE">Ceará (CE)</option>
+				<option value="DF">Distrito Federal (DF)</option>
+				<option value="ES">Espírito Santo (ES)</option>
+				<option value="GO">Goiás (GO)</option>
+				<option value="MA">Maranhão (MA)</option>
+				<option value="MT">Mato Grosso (MT)</option>
+				<option value="MS">Mato Grosso do Sul (MS)</option>
+				<option value="MG">Minas Gerais (MG)</option>
+				<option value="PA">Pará (PA)</option>
+				<option value="PB">Paraíba (PB)</option>
+				<option value="PR">Paraná (PR)</option>
+				<option value="PE">Pernambuco (PE)</option>
+				<option value="PI">Piauí (PI)</option>
+				<option value="RJ">Rio de Janeiro (RJ)</option>
+				<option value="RN">Rio Grande do Norte (RN)</option>
+				<option value="RS">Rio Grande do Sul (RS)</option>
+				<option value="RO">Rondônia (RO)</option>
+				<option value="RR">Roraima (RR)</option>
+				<option value="SC">Santa Catarina (SC)</option>
+				<option value="SP">São Paulo (SP)</option>
+				<option value="SE">Sergipe (SE)</option>
+				<option value="TO">Tocantins (TO)</option>
+			</select>
+		</div>
+		<input type="submit" value="Enviar" class="botao">
+	</form>
+	</div>
+</body>
+</html>
